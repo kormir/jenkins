@@ -3,7 +3,7 @@
         stages{
             stage('Test1'){
                 steps{
-                    sh 'cat README.md'
+                    sh "cat README.md"
                 }
             }         
         }    
